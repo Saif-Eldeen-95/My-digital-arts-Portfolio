@@ -1,0 +1,97 @@
+/* =========================================================
+   EXPERIENCE
+========================================================= */
+
+.experience-section {
+  background: var(--bg-light-1);
+  max-width: none;
+  padding-left: max(30px, calc((100vw - 1120px) / 2));
+  padding-right: max(30px, calc((100vw - 1120px) / 2));
+}
+
+.timeline {
+  max-width: 1000px;
+  border-left: 3px solid var(--primary);
+  margin-left: 12px;
+}
+
+.timeline-item {
+  position: relative;
+  padding: 0 0 65px 45px;
+}
+
+.timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -18px;
+  top: 0;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--secondary);
+  color: var(--white);
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.timeline-date {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--primary);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.timeline-content h3 {
+  margin: 0;
+  color: var(--text);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.timeline-content h4 {
+  margin: 4px 0 14px;
+  color: var(--secondary);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.timeline-content p {
+  max-width: 720px;
+  margin: 0 0 17px;
+  color: var(--text-soft);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.timeline-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.timeline-tools span {
+  padding: 5px 10px;
+  background: var(--card-light-2);
+  border-radius: 3px;
+  color: var(--text-soft);
+  font-size: 9px;
+  font-weight: 600;
+}
+
+:root[data-theme="dark"] .timeline-marker {
+  background: var(--secondary);
+  color: var(--white);
+}
+
+:root[data-theme="dark"] .timeline-tools span {
+  background: #2a2a35;
+  color: #a8a8b3;
+}
