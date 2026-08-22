@@ -1,0 +1,82 @@
+/* =========================================================
+   EDUCATION
+========================================================= */
+
+.education-section {
+  background: var(--bg-light-1);
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
+.education-card {
+  padding: 30px;
+  border-radius: 15px;
+  background: var(--card-light-1);
+}
+
+.education-card > span,
+.certificate-card > span {
+  color: var(--primary);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.education-card h3 {
+  margin: 15px 0 4px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.education-card p {
+  margin: 0 0 22px;
+  color: var(--text-soft);
+  font-size: 13px;
+}
+
+.education-card strong {
+  color: var(--secondary);
+  font-size: 14px;
+}
+
+.certificates {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.certificate-card {
+  padding: 22px;
+  border-radius: 15px;
+  background: var(--card-light-2);
+  transition: all 0.25s ease;
+}
+
+.certificate-card:hover {
+  transform: translateX(5px);
+  box-shadow: var(--shadow);
+}
+
+.certificate-card h3 {
+  margin: 8px 0 3px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.certificate-card p {
+  margin: 0;
+  color: var(--text-soft);
+  font-size: 12px;
+}
+
+/* Responsive */
+@media (max-width: 950px) {
+  .education-grid {
+    grid-template-columns: 1fr;
+    gap: 70px;
+  }
+}
