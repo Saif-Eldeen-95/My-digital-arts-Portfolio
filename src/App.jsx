@@ -20,50 +20,120 @@ const NAV_ITEMS = [
 
 const VIDEO_PROJECTS = [
   {
-    title: "Video Project 01",
-    description:
-      "A video editing project focused on visual storytelling, pacing, and engaging transitions.",
-    tools: ["DaVinci Resolve", "CapCut"],
-    link: "#",
+    title: "Jobfair 2025 Opening Video",
+    client: "UCCD — Faculty of Engineering",
+    description: "A Professional opening video edit for the Jobfair 2025 event, designed to set the tone and engage the audience.",
+    tools: ["DaVinci Resolve", "Canva"],
+    link: "https://drive.google.com/file/d/1fzu_DVpgyM8XCAPt3-MTsh8WwTM8w_IJ/view?usp=drive_link",
   },
   {
-    title: "Video Project 02",
-    description:
-      "A creative video project combining editing, motion, music, and visual effects.",
-    tools: ["DaVinci Resolve", "VN"],
-    link: "#",
+    title: "Jobfair 2025 Teaser Reel",
+    client: "UCCD — Faculty of Engineering",
+    description: "A teaser video edit designed to generate excitement and anticipation for the Jobfair 2025 event.",
+    tools: ["Video Guro","Picsart", "Canva"],
+    link: "https://drive.google.com/file/d/1a6iVRmZeHszIQ73_vCXBRFkQIf35Yrpq/view?usp=drive_link",
   },
   {
-    title: "Video Project 03",
-    description:
-      "A social media video created with a focus on engaging visuals and storytelling.",
-    tools: ["CapCut", "DaVinci Resolve"],
-    link: "#",
+    title: "CO-OP Ceremony 2025",
+    client: "UCCD — Faculty of Engineering",
+    description: "A professional video edit highlighting the CO-OP Ceremony, with emphasis on storytelling and visual composition.",
+    tools: ["CapCut", "VN"],
+    link: "https://drive.google.com/file/d/1Df5kBVoWz-uRwdwLpBLsRoGLoMzrPJyo/view?usp=drive_link",
   },
-];
+  {
+    title: "Teachers Honoring Ceremony",
+    client: "elFath Private School",
+    description: "A heartfelt video edit celebrating teachers, with a focus on emotional storytelling and visual composition.",
+    tools: ["Video Guro","Picsart", "Canva"],
+    link: "https://drive.google.com/file/d/1BcZdSEPztJdrREf7YZXJIXJ-82H8xFRd/view?usp=drive_link",
+  },
+  {
+    title: "Success Story",
+    client: "English With Jasmine",
+    description: "A compelling narrative showcasing the journey and achievements of a success story of miss yasmin.",
+    tools: ["CapCut", "Canva"],
+    link: "https://drive.google.com/file/d/1I1F1e3PQm3jntkUBT8m2RoQ3UIIu_aCC/view?usp=drive_link",
+  },
+  {
+    title: "Book Fair 2025 - Bibliotheca Alexandrina",
+    client: "personal project",
+    description: "A visually engaging video edit capturing the highlights of the Book Fair 2025 at Bibliotheca Alexandrina.",
+    tools: ["CapCut", "Canva"],
+    link: "https://drive.google.com/file/d/139SQCUn9HYR3TGQUqBqeIAvlltptQF-G/view?usp=drive_link",
+  },
+  {
+    title: "Space Apps Challenge 2026 Promo",
+    client: "NASA Space Apps - Alexandria",
+    description: "A promotional video edit for the Space Apps Challenge 2026, designed to generate excitement and anticipation for the event.",
+    tools: ["CapCut", "Canva", "Video Guro"],
+    link: "https://drive.google.com/file/d/1uIJfK4CuxG1I9UYXP0mUl90j3tikrsbQ/view?usp=drive_link",
+  },
+  {
+    title: "Space Apps Bootcamp 2026 Coverage",
+    client: "NASA Space Apps - Alexandria",
+    description: "A video edit highlighting the key moments and insights from the Space Apps Bootcamp 2026.",
+    tools: ["CapCut", "Canva", "Video Guro"],
+    link: "https://drive.google.com/file/d/1nZPg2xzKoKuo7OLCRarewQSpLR0DLQLA/view?usp=drive_link",
+  },
+  {
+    title: "Space Apps Challenge 2026 Teaser",
+    client: "NASA Space Apps - Alexandria",
+    description: "A teaser video edit for the Space Apps Challenge 2026, designed to generate excitement and anticipation for the event.",
+    tools: ["CapCut", "Canva", "Video Guro"],
+    link: "https://drive.google.com/file/d/1nCneU5VGdL5jc2zclP_eAEoiNH1p942b/view?usp=drive_link",
+  }
+]
 
 const DESIGN_PROJECTS = [
   {
     title: "Design Project 01",
     description:
       "A graphic design project created for digital communication and visual impact.",
-    tools: ["Canva"],
+    tools: ["Canva", "Picsart"],
     link: "#",
   },
   {
     title: "Design Project 02",
     description:
       "A creative visual design project developed around a clear and modern visual identity.",
-    tools: ["Canva"],
+    tools: ["Canva", "Picsart"],
     link: "#",
   },
   {
     title: "Design Project 03",
     description:
       "A collection of visual assets designed for digital and social media use.",
-    tools: ["Canva"],
+    tools: ["Canva", "Picsart"],
     link: "#",
   },
+  {
+    title: "Design Project 01",
+    description:
+      "A graphic design project created for digital communication and visual impact.",
+    tools: ["Canva", "Picsart"],
+    link: "#",
+  },
+  {
+    title: "Design Project 02",
+    description:
+      "A creative visual design project developed around a clear and modern visual identity.",
+    tools: ["Canva", "Picsart"],
+    link: "#",
+  },
+  {
+    title: "Design Project 03",
+    description:
+      "A collection of visual assets designed for digital and social media use.",
+    tools: ["Canva", "Picsart"],
+    link: "#",
+  },
+  {
+    title: "Design Project 03",
+    description:
+      "A collection of visual assets designed for digital and social media use.",
+    tools: ["Canva", "Picsart"],
+    link: "#",
+  }
 ];
 
 /* =========================
@@ -77,7 +147,7 @@ const EXPERIENCE = [
     company: "NASA Space Apps",
     description:
       "Covered events including NASA Space Apps Challenge and Summer Training.",
-    tools: ["DaVinci Resolve", "Canva", "CapCut", "VN", "Video Guro"],
+    tools: ["DaVinci Resolve", "Canva", "CapCut", "VN", "Video Guro", "Picsart"],
   },
   {
     date: "Mar 2025 — Present",
@@ -85,7 +155,7 @@ const EXPERIENCE = [
     company: "UCCD — Faculty of Engineering",
     description:
       "Worked on event coverage including JOBFAIR 2025 and Career Axis#4 2026, with responsibilities in video editing, graphic design, and photography.",
-    tools: ["DaVinci Resolve", "Canva", "CapCut", "VN", "Video Guro"],
+    tools: ["DaVinci Resolve", "Canva", "CapCut", "VN", "Video Guro", "Picsart"],
   },
   {
     date: "Aug 2023 — Jul 2024",
@@ -143,13 +213,13 @@ const SERVICES = [
 const TOOLS = [
   {
     name: "DaVinci Resolve",
-    level: 50,
+    level: 60,
     icon: "🎬",
     category: "Video Editing"
   },
   {
     name: "Canva",
-    level: 80,
+    level: 85,
     icon: "🎨",
     category: "Graphic Design"
   },
@@ -163,14 +233,20 @@ const TOOLS = [
     name: "VN",
     level: 80,
     icon: "📱",
-    category: "Mobile Editing"
+    category: "Video Editing"
   },
   {
     name: "Video Guro",
     level: 90,
     icon: "🎥",
-    category: "Video Production"
+    category: "Video Editing"
   },
+  {
+    name: "Picsart",
+    level: 85,
+    icon: "🖌️",
+    category: "Graphic Design"
+  }
 ];
 
 /* =========================
@@ -315,7 +391,7 @@ export default function App() {
           </nav>
         )}
       </header>
-      
+
       {/* =========================
           Hero
       ========================= */}
