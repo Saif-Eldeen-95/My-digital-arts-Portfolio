@@ -1,0 +1,72 @@
+/* =========================================================
+   SERVICES
+========================================================= */
+
+.services-section {
+  padding-top: 60px;
+  background: var(--bg-light-1);
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.service-card {
+  min-height: 270px;
+  padding: 28px;
+  background: var(--card-light-1);
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.service-card:nth-child(even) {
+  background: var(--card-light-2);
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow);
+  background: var(--white);
+}
+
+.service-number {
+  display: block;
+  margin-bottom: 60px;
+  color: var(--secondary);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.service-card h3 {
+  margin: 0 0 12px;
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.service-card p {
+  margin: 0;
+  color: var(--text-soft);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+:root[data-theme="dark"] .service-card:hover {
+  background: var(--card-dark-2);
+}
+
+/* Responsive */
+@media (max-width: 950px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 550px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
