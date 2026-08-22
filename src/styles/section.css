@@ -1,0 +1,56 @@
+/* =========================================================
+   GENERAL SECTIONS (shared across most components)
+========================================================= */
+
+.eyebrow {
+  display: inline-block;
+  margin: 0 0 17px;
+  padding: 8px 16px;
+  color: var(--white);
+  background: var(--secondary);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  border-radius: 20px;
+}
+
+.section {
+  width: 100%;
+  margin: 0 auto;
+  padding: 125px 30px;
+}
+
+.section-heading {
+  margin-bottom: 55px;
+}
+
+.section-title {
+  margin: 0;
+  color: var(--text);
+  font-size: clamp(38px, 5vw, 58px);
+  line-height: 1.05;
+  letter-spacing: -2px;
+  font-weight: 800;
+}
+
+.section-title span {
+  color: var(--primary);
+}
+
+.section-intro {
+  max-width: 600px;
+  margin: 20px 0 0;
+  color: var(--text-soft);
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 95px 22px;
+  }
+
+  .section-heading {
+    margin-bottom: 42px;
+  }
+}
