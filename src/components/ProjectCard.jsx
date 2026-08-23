@@ -2,7 +2,12 @@ import React from "react";
 
 export default function ProjectCard({ project, index, visualLabel, visualClassName = "" }) {
   return (
-    <a href={project.link} className="project-card">
+    <a
+      href={project.link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="project-card"
+    >
       <div className={`project-visual ${visualClassName}`}>
         <span>{visualLabel}</span>
         <strong>0{index + 1}</strong>
