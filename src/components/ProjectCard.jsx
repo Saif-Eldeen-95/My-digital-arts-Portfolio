@@ -15,7 +15,7 @@ export default function ProjectCard({
       <div className={`project-visual ${visualClassName}`}>
         <img
           src={project.image}
-          alt={project.title}
+          alt={project.imageAlt || project.title}
         />
         {showVisualMeta && (
           <>
