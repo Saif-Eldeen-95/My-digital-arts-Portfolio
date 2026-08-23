@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function ProjectCard({ project, index, visualLabel, visualClassName = "" }) {
   return (
     <a
@@ -9,6 +7,10 @@ export default function ProjectCard({ project, index, visualLabel, visualClassNa
       className="project-card"
     >
       <div className={`project-visual ${visualClassName}`}>
+        <img
+          src={project.image}
+          alt={project.title}
+        />
         <span>{visualLabel}</span>
         <strong>0{index + 1}</strong>
       </div>
