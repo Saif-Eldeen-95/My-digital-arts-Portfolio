@@ -1,4 +1,10 @@
-export default function ProjectCard({ project, index, visualLabel, visualClassName = "" }) {
+export default function ProjectCard({
+  project,
+  index,
+  visualLabel,
+  visualClassName = "",
+  showVisualMeta = true,
+}) {
   return (
     <a
       href={project.link}
@@ -11,8 +17,12 @@ export default function ProjectCard({ project, index, visualLabel, visualClassNa
           src={project.image}
           alt={project.title}
         />
-        <span>{visualLabel}</span>
-        <strong>0{index + 1}</strong>
+        {showVisualMeta && (
+          <>
+            <span>{visualLabel}</span>
+            <strong>0{index + 1}</strong>
+          </>
+        )}
       </div>
 
       <div className="project-content">

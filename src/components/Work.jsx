@@ -38,6 +38,7 @@ export default function Work() {
               project={project}
               index={index}
               visualLabel="VIDEO"
+              showVisualMeta={false}
             />
           ))}
         </div>
@@ -62,6 +63,7 @@ export default function Work() {
               index={index}
               visualLabel="DESIGN"
               visualClassName="project-visual--design"
+              showVisualMeta={false}
             />
           ))}
         </div>
