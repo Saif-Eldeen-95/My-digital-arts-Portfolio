@@ -1,12 +1,12 @@
-import one from "../assets/hero.png";
-import two from "../assets/career_axis_timeline.png";
-import three from "../assets/Speaker_career_axis.png";
-import four from "../assets/career_axis_parteners.png";
-import five from "../assets/IOT_POSTER.png";
-import six from "../assets/mindmap.png";
-import seven from "../assets/Star++_logo.png";
-import eight from "../assets/موبايلك_logo.png";
-import nine from "../assets/موبايلك_logo.png";
+import one from "../assets/vidoes/one.jpeg";
+import two from "../assets/vidoes/two.jpeg";
+import three from "../assets/vidoes/three.jpeg";
+import four from "../assets/vidoes/four.jpeg";
+import five from "../assets/vidoes/five.jpeg";
+import six from "../assets/vidoes/six.jpeg";
+import seven from "../assets/vidoes/seven.jpeg";
+import eight from "../assets/vidoes/eight.jpeg";
+import nine from "../assets/vidoes/nine.jpeg";
 
 export const VIDEO_PROJECTS = [
   {

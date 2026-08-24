@@ -1,16 +1,16 @@
 export const EXPERIENCE = [
   {
-    date: "Jun 2026 — Present",
-    role: "Video Editor",
-    company: "NASA Space Apps",
-    description: "Covered events including NASA Space Apps Challenge and Summer Training.",
-    tools: ["DaVinci Resolve", "Canva", "CapCut", "VN", "Video Guro", "Picsart"],
-  },
-  {
     date: "Mar 2025 — Present",
     role: "Media Volunteer",
     company: "UCCD — Faculty of Engineering",
     description: "Worked on event coverage including JOBFAIR 2025 and Career Axis#4 2026, with responsibilities in video editing, graphic design, and photography.",
+    tools: ["DaVinci Resolve", "Canva", "CapCut", "VN", "Video Guro", "Picsart"],
+  },
+  {
+    date: "Jun 2026 — Aug 2026",
+    role: "Video Editor",
+    company: "NASA Space Apps",
+    description: "Covered events including NASA Space Apps Challenge and Summer Training.",
     tools: ["DaVinci Resolve", "Canva", "CapCut", "VN", "Video Guro", "Picsart"],
   },
   {

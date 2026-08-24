@@ -2,7 +2,7 @@ import mindmapImage from "../assets/mindmap.png";
 import iotPosterImage from "../assets/IOT_POSTER.png";
 import mobileLogoImage from "../assets/موبايلك_logo.png";
 import starLogoImage from "../assets/Star++_logo.png";
-import careerTimelineImage from "../assets/career_axis_timeline.png";
+import handslogo from "../assets/Hands_Logo.jpg";
 import speakerCareerImage from "../assets/Speaker_career_axis.png";
 import careerPartnersImage from "../assets/career_axis_parteners.png";
 
@@ -36,11 +36,11 @@ export const DESIGN_PROJECTS = [
     link: "https://drive.google.com/file/d/1eSAQyY7axXkNvlfITP2NWPu4RCgHiCX9/view?usp=drive_link",
   },
   {
-    title: "Career Axis Timeline Design",
-    description: "An event timeline poster for Career Axis #4, showing the schedule, participating companies, speakers, and event branding.",
+    title: "Hands Logo Design",
+    description: "A logo for Hands, a company specializing in decoration and home architecture design, featuring two hands forming a heart shape with a warm color palette and a clean visual identity.",
     tools: ["Canva", "Picsart"],
-    image: careerTimelineImage,
-    link: "https://drive.google.com/file/d/1GeD3BpKPYgV1kVkocZ8Feq4kdWljpiSh/view?usp=drive_link",
+    image: handslogo,
+    link: "https://drive.google.com/file/d/16DS389oOxfobmvMlpe-E5EKrXXEbfwG3/view?usp=drive_link",
   },
   {
     title: "Speaker Career Axis",
